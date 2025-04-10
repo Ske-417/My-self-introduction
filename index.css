@@ -2,15 +2,14 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f0f0f0;
+    color: #ccc; /* 薄いグレーの文字色 */
+    background-color: #333; /* 濃いグレーの背景色 */
+    text-align: center; /* 全体の中央揃え */
 }
 
 header {
-    background-color: #222;
-    color: #fff;
     padding: 20px;
-    text-align: center;
+    border-bottom: 1px solid #555; /* 下線を追加 */
 }
 
 header h1 {
@@ -28,41 +27,38 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #ccc;
     text-decoration: none;
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 50px;
 }
 
 .content {
-    max-width: 50%;
+    max-width: 800px;
+    margin: 0 auto; /* コンテンツを中央に配置 */
+    border: 1px solid #555; /* コンテンツ領域に枠線を追加 */
+    padding: 30px;
 }
 
 .content h2 {
-    color: #222;
+    color: #ccc;
+    border-bottom: 1px solid #555; /* タイトルの下に線を追加 */
+    padding-bottom: 10px;
 }
 
 .content button {
-    background-color: #333;
-    color: #fff;
+    background-color: #555;
+    color: #ccc;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
+    margin-top: 20px; /* ボタンの上に余白を追加 */
 }
 
 footer {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
     padding: 10px 0;
+    border-top: 1px solid #555; /* 上線を追加 */
+    margin-top: 50px; /* フッターの上に余白を追加 */
 }
